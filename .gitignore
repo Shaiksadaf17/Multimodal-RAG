@@ -1,0 +1,33 @@
+# Virtual environment
+.venv_multimodal/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# ChromaDB
+chroma_db/
+chroma/
+data/chroma/
+*.sqlite3
+
+# Extracted files
+data/extracted_images/
+
+# Uploaded documents
+data/*.pdf
+data/*.docx
+data/*.pptx
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / IDE
+.vscode/
+.DS_Store
+Thumbs.db
