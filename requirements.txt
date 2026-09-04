@@ -1,7 +1,13 @@
-streamlit
-python-dotenv
-pymupdf
-python-docx
-python-pptx
-pandas
-pillow
+Set-Content requirements.txt @(
+    "streamlit"
+    "python-dotenv"
+    "pymupdf"
+    "python-docx"
+    "python-pptx"
+    "pandas"
+    "pillow"
+    "sentence-transformers"
+    "chromadb"
+    "google-genai"
+    "torchvision"
+)
